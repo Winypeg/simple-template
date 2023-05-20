@@ -1,0 +1,38 @@
+.block{
+    display: flex;
+justify-content: space-between;
+
+}
+
+.text{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(190, 35, 170); 
+    display: flex; 
+    justify-content: center;
+}
+
+.image{
+    width: 400px ;
+    height: 300px;
+    display: flex; 
+    align-self: center;
+} 
+
+.smell{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+}
+
+.lol{
+    display: flex;
+    flex-direction: column ; 
+     
+}
+
+.humour{
+    display: flex;
+    flex-direction: column ; 
+   
+}
