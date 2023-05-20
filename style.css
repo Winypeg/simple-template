@@ -10,6 +10,8 @@ justify-content: space-between;
     color: rgb(190, 35, 170); 
     display: flex; 
     justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .image{
@@ -17,22 +19,38 @@ justify-content: space-between;
     height: 300px;
     display: flex; 
     align-self: center;
+    padding-bottom: 5px;
 } 
 
 .smell{
     display: flex;
     flex-direction: column ;
-    justify-content: center;
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
 }
 
 .lol{
     display: flex;
     flex-direction: column ; 
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
      
 }
 
 .humour{
     display: flex;
     flex-direction: column ; 
-   
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+}
+
+
+
+h1, h2{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
